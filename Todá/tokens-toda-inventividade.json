@@ -1,0 +1,48 @@
+{
+  "name": "Design Tokens Todá Inventividade",
+  "description": "Tokens de identidade visual da agência Todá Inventividade. Usados como assinatura da agência (logo + página de considerações finais) nos relatórios mensais de performance dos shoppings da carteira Gazit Brasil. Não substitui o design system Gazit — é uma camada separada, aplicada por cima dele.",
+  "color": {
+    "brand": {
+      "purple-dark": {
+        "value": "#170141",
+        "usage": "cor base da marca; fundo do círculo do logo; palavra 'inventividade'"
+      },
+      "pink": {
+        "value": "#ff0060",
+        "usage": "cor de destaque; palavra 'todá' no logo; títulos e elementos de assinatura"
+      }
+    }
+  },
+  "typography": {
+    "font-family": {
+      "display": "Run",
+      "body": "Montserrat Bold"
+    },
+    "usage": {
+      "Run": "textos curtos e títulos",
+      "Montserrat Bold": "números, textos longos e acentuação"
+    }
+  },
+  "logo": {
+    "variants": {
+      "colorido": {
+        "file": "Todá_Logo_-_Colorido_1.png",
+        "background": "fundo branco",
+        "usage": "aplicação padrão — usar sempre que o fundo for branco, para dar maior leitura"
+      },
+      "branco": {
+        "file": "Todá_Logo_-_Branco.png",
+        "background": "fundo colorido",
+        "usage": "usar quando o fundo do slide/peça for colorido (ex.: bloco em azul-marinho ou dourado da Gazit)"
+      },
+      "preto": {
+        "background": "fundo extremo, puxado para o branco",
+        "usage": "caso extremo — fundo claro o suficiente para o colorido perder leitura, mas não branco puro; ainda não existe arquivo próprio desta versão"
+      }
+    }
+  },
+  "application-in-reports": {
+    "every-slide": "logo Todá (versão conforme cor de fundo do slide) no canto superior direito de todos os slides do relatório mensal",
+    "closing-slide": "página 11 do relatório ('Considerações finais da agência') — assinatura completa da Todá com leitura estratégica do mês e recomendações para o próximo ciclo"
+  }
+}
